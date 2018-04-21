@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Effective JavaScript: Frogger</title>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="main">
+        <div id="intro">
+            Use keyboards arrows to move the player, please take care of the bugs &#9786;
+        </div>
+        <div id="pass"></div>
+      <div id="arcade-game"></div>
+      <div id="score-container" class="lead">
+       <div id="won-span">Pass: <span id="score-pass"></span></div>
+        <div id="died-span">Faild: <span id="score-faild"></span></div>
+      </div>
+    </div>
+  </div>
+  <script src="js/resources.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/engine.js"></script>
+</body>
+</html>
